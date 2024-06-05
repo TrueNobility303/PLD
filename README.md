@@ -10,6 +10,8 @@ PLD copy the same pattern to be the draft in speculated decoding. It consists of
 * Copy the subsequent m tokens to be the draft
 * Verify the draft 
 
+We also use KV cache in the code to acccelerate generation.
+
 ## Expreiment Results
 
 Compare naive greedy decoding and PLD on dataset GSM8k with [Abel-7B001](https://huggingface.co/GAIR/Abel-7B-001). 
