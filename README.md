@@ -14,7 +14,7 @@ We also use KV cache in the code to acccelerate generation.
 
 ## Expreiment Results
 
-Compare naive greedy decoding and PLD on dataset GSM8k with [Abel-7B001](https://huggingface.co/GAIR/Abel-7B-001). 
+Compare naive greedy decoding and PLD of math model [Abel-7B001](https://huggingface.co/GAIR/Abel-7B-001) on dataset GSM8k.
 
 ```
 CUDA_VISIBLE_DEVICES=0 python3 chat_base.py --model_path GAIR/Abel-7B-001/ --cllm_type gsm8k --chat --debug
